@@ -11,6 +11,11 @@
 }
 // @include display-grid();
 
+@mixin display-flex{
+    display: flex;
+}
+// @include display-flex();
+
 // position-fixed
 @mixin fixed($position) {
     position: fixed;
